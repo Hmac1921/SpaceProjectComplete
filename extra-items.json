@@ -1,0 +1,24 @@
+{
+    "extras": [{
+            "id": 1,
+            "name": "Pluto",
+            "facts": "Pluto was reclassified from a planet to a dwarf planet in 2006",
+            "img": "./img/pluto.jpg",
+            "message": "We weren't supposed to land here!"
+        },
+        {
+            "id": 2,
+            "name": "Asteriod Belt",
+            "facts": "The current known asteriod count is 1,113,527",
+            "img": "./img/asteroid-belt.jpg",
+            "message": "!! Wing damage !!"
+        },
+        {
+            "id": 3,
+            "name": "Halleys Comet",
+            "facts": "One of the darkest objects in the Solar System, Halleys comet only reflects 3% of light that falls on it",
+            "img": "./img/halleys-comet.jpg",
+            "message": "You've hit Halleys Comet!! be more careful Fox! "
+        }
+    ]
+}

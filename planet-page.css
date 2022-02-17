@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    font-family: 'VT323', monospace;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 20px;
+}
+
+input {
+    border: thin solid white;
+    background-color: black;
+    color: white;
+}
+
+#btn-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#planet-img {
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-shadow: 3px 3px 3px black;
+
+}
+
+.planet-container {
+    width: 15rem;
+}
+
+#spaceship {
+    animation: shake-lr 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+
+}
+
+
+@keyframes bank {
+    25% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: rotate(-20deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.2);
+        opacity: 0;
+    }
+
+}
+
+@keyframes shake-lr {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+
+    10% {
+        transform: rotate(8deg);
+    }
+
+    20%,
+    40%,
+    60% {
+        transform: rotate(-10deg);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: rotate(10deg);
+    }
+
+    80% {
+        transform: rotate(-8deg);
+    }
+
+    90% {
+        transform: rotate(8deg);
+    }
+}
